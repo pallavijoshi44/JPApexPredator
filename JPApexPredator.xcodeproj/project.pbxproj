@@ -14,6 +14,7 @@
 		923650362C73C1CE0086CE2A /* JPApexPredatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923650352C73C1CE0086CE2A /* JPApexPredatorTests.swift */; };
 		923650402C73C1CE0086CE2A /* JPApexPredatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9236503F2C73C1CE0086CE2A /* JPApexPredatorUITests.swift */; };
 		923650422C73C1CE0086CE2A /* JPApexPredatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923650412C73C1CE0086CE2A /* JPApexPredatorUITestsLaunchTests.swift */; };
+		923650542C73C9720086CE2A /* ApexPredator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 923650532C73C9720086CE2A /* ApexPredator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9236503F2C73C1CE0086CE2A /* JPApexPredatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexPredatorUITests.swift; sourceTree = "<group>"; };
 		923650412C73C1CE0086CE2A /* JPApexPredatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexPredatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		923650502C73C2180086CE2A /* jpapexpredators.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
+		923650532C73C9720086CE2A /* ApexPredator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApexPredator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				923650502C73C2180086CE2A /* jpapexpredators.json */,
 				923650242C73C1CD0086CE2A /* JPApexPredatorApp.swift */,
+				923650532C73C9720086CE2A /* ApexPredator.swift */,
 				923650262C73C1CD0086CE2A /* ContentView.swift */,
 				923650282C73C1CE0086CE2A /* Assets.xcassets */,
 				9236502A2C73C1CE0086CE2A /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				923650542C73C9720086CE2A /* ApexPredator.swift in Sources */,
 				923650272C73C1CD0086CE2A /* ContentView.swift in Sources */,
 				923650252C73C1CD0086CE2A /* JPApexPredatorApp.swift in Sources */,
 			);
