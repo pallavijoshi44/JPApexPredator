@@ -44,6 +44,7 @@
 		9236503B2C73C1CE0086CE2A /* JPApexPredatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPApexPredatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9236503F2C73C1CE0086CE2A /* JPApexPredatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexPredatorUITests.swift; sourceTree = "<group>"; };
 		923650412C73C1CE0086CE2A /* JPApexPredatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPApexPredatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		923650502C73C2180086CE2A /* jpapexpredators.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = jpapexpredators.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +95,7 @@
 		923650232C73C1CD0086CE2A /* JPApexPredator */ = {
 			isa = PBXGroup;
 			children = (
+				923650502C73C2180086CE2A /* jpapexpredators.json */,
 				923650242C73C1CD0086CE2A /* JPApexPredatorApp.swift */,
 				923650262C73C1CD0086CE2A /* ContentView.swift */,
 				923650282C73C1CE0086CE2A /* Assets.xcassets */,
