@@ -14,6 +14,7 @@ struct ContentView: View {
     @State var currentMenuSelection = PredatorType.all
     
     var filteredDinos : [ApexPredator] {
+        predators.filter(by: currentMenuSelection)
         predators.sort(by: alphabetical)
         return predators.search(for: searchText)
     }
@@ -22,9 +23,7 @@ struct ContentView: View {
         NavigationStack {
             List(filteredDinos) { apexPredator in
                 NavigationLink {
-                    Image(apexPredator.image)
-                        .resizable()
-                        .scaledToFit()
+                    PredatorDetail(predator: apexPredator)
                 } label: {
                     HStack {
                         Image(apexPredator.image)
@@ -66,7 +65,7 @@ struct ContentView: View {
                 
                 ToolbarItem(placement: .topBarTrailing) {
                     Menu {
-                        Picker("Filter", selection: $currentMenuSelection) {
+                        Picker("Filter", selection: $currentMenuSelection.animation()) {
                             ForEach(PredatorType.allCases) { type in
                                 Label(type.rawValue.capitalized, systemImage:type.icon);
                             }
