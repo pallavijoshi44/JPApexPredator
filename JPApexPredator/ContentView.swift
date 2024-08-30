@@ -40,8 +40,6 @@ struct ContentView: View {
                                 .padding(.vertical, 5)
                                 .background(apexPredator.type.background)
                                 .clipShape(.capsule)
-                            
-                            
                         }
                     }
                 }
